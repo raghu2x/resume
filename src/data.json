@@ -1,0 +1,50 @@
+{
+  "PersonalInfo": {
+    "name": "Raghvendra Yadav",
+    "title": "Junior Developer ",
+    "img": "https://preview.launchoice.com/personal_cv/assets/img/avatar.jpg"
+  },
+  "information": {
+    "Location": "Indore",
+    "Experience": "2 Year",
+    "Availability": "10 Days",
+    "Relocation": "Yes"
+  },
+  "skills": [
+    "Javascript",
+    "React",
+    "Vue"
+  ],
+  "about": {
+    "email": "raghu@gmail.com",
+    "socialMedia": {
+      "facebook": "https://facebook.com",
+      "twitter": "https://twitter.com",
+      "github": "https://github.com"
+    },
+    "description": "Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Quidem Commodi, Rerum Aliquid Sunt Odio Similique, Temporibus Harum, Hic Consectetur Atque Non Repellendus Ipsa Vero Illum Expedita Cumque In Et Reiciendis."
+  },
+  "experience": {
+    "startDate": "01-01-2020",
+    "endDate": "01-01-2021",
+    "position": "Trainee Developer",
+    "company": {
+      "name": "Company",
+      "city": "",
+      "state": "Indore",
+      "country": "India"
+    },
+    "achievements": "More ",
+    "technologies": "React js"
+  },
+  "eduction": {
+    "startYear": "2019",
+    "endYear": "2022",
+    "institue": {
+      "name": "BCA(Bachelor of Computer Application)",
+      "city": "Mandsour",
+      "country": "Madhya Pradesh"
+    },
+    "subject": "India"
+  }
+}
