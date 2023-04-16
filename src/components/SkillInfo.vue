@@ -1,6 +1,8 @@
 <template>
   <div class="shadow bg-white rounded-xl overflow-hidden capitalize p-5 my-4">
-    <h3 class="text-lg font-semibold">skills</h3>
+    <h3 class="text-lg font-semibold">
+      skills
+    </h3>
     <div class="py-5">
       <p
         v-for="skill in skills"
@@ -25,8 +27,8 @@
 
 <script>
 export default {
-  name: "SkillInfo",
-  props: ["skills"],
+  name: 'SkillInfo',
+  props: ['skills'],
 };
 </script>
 

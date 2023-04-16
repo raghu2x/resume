@@ -1,36 +1,32 @@
 {
   "name": "resume",
   "version": "0.0.1",
-  "description": "raghvendra yadav portfolio website",
-  "productName": "Resume",
-  "author": "Raghvendra Yadav",
+  "description": "My resume",
+  "productName": "resume",
+  "author": "raghvendra <raghvendraa.dev@gmail.com>",
   "private": true,
   "scripts": {
-    "start": "concurrently \"npm run tailwind\" \"npm run dev\"",
+    "lint": "eslint --ext .js,.vue ./src --fix",
     "dev": "quasar dev",
-    "build": "quasar build"
+    "build": "quasar build",
+    "serve": "quasar serve --history dist/spa"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
-    "axios": "^0.21.1",
-    "eslint": "^8.27.0",
-    "node": "^16.17.0",
     "pinia": "^2.0.11",
-    "postcss-import": "^14.1.0",
     "quasar": "^2.6.0",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0"
   },
   "devDependencies": {
     "@quasar/app-vite": "^1.0.0",
-    "@tailwindcss/forms": "^0.5.2",
-    "autoprefixer": "^10.4.7",
-    "concurrently": "^7.2.2",
-    "eslint-config-prettier": "^8.1.0",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.10.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-vue": "^9.0.0",
-    "postcss": "^8.4.14",
-    "prettier": "^2.5.1",
-    "tailwindcss": "^3.1.8"
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.1"
   },
   "engines": {
     "node": "^18 || ^16 || ^14.19",

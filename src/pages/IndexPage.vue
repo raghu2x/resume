@@ -19,16 +19,10 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from "vue";
-import ProfileInfo from "../components/ProfileInfo.vue";
-import InformationInfo from "../components/InformationInfo.vue";
-import AboutInfo from "../components/AboutInfo.vue";
-import SkillInfo from "../components/SkillInfo.vue";
-import { useUserStore } from "@/stores/user-data.js";
-const user_store = useUserStore();
-const user = ref({});
+import ProfileInfo from 'components/ProfileInfo.vue';
+import InformationInfo from 'components/InformationInfo.vue';
+import AboutInfo from 'components/AboutInfo.vue';
+import SkillInfo from 'components/SkillInfo.vue';
+import user from '../data.json';
 
-onMounted(async () => {
-  user.value = user_store.userInfo;
-});
 </script>
