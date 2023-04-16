@@ -1,27 +1,40 @@
 {
   "PersonalInfo": {
     "name": "Raghvendra Yadav",
-    "title": "Junior Developer ",
+    "title": "Junior Developer",
     "img": "https://preview.launchoice.com/personal_cv/assets/img/avatar.jpg"
   },
   "information": {
     "Location": "Indore",
     "Experience": "2 Year",
-    "Availability": "10 Days",
+    "Availability": "15 Days",
     "Relocation": "Yes"
   },
   "skills": [
     "Javascript",
-    "React",
-    "Vue"
+    "Node.js",
+    "Vue.js",
+    "Nuxt.js",
+    "tailwindcss",
+    "quasar",
+    "vuetify"
   ],
   "about": {
-    "email": "raghu@gmail.com",
-    "socialMedia": {
-      "facebook": "https://facebook.com",
-      "twitter": "https://twitter.com",
-      "github": "https://github.com"
-    },
+    "email": "raghvendraa.dev@gmail.com",
+    "socialMedia": [
+      {
+        "icon": "fa-brands fa-facebook-f",
+        "link": "https://facebook.com"
+      },
+      {
+        "icon": "fa-brands fa-linkedin-in",
+        "link": "https://linkedin.com/raghvendra-yadav"
+      },
+      {
+        "icon": "fa-brands fa-github",
+        "link": "https://github.com/raghu2x"
+      }
+    ],
     "description": "Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Quidem Commodi, Rerum Aliquid Sunt Odio Similique, Temporibus Harum, Hic Consectetur Atque Non Repellendus Ipsa Vero Illum Expedita Cumque In Et Reiciendis."
   },
   "experience": {

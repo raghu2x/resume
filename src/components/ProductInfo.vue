@@ -1,6 +1,8 @@
 <template>
   <div class="shadow bg-white rounded-xl overflow-hidden capitalize p-5 my-4">
-    <h3 class="text-lg font-semibold">products</h3>
+    <h3 class="text-lg font-semibold">
+      products
+    </h3>
     <div class="py-5">
       <!-- {{ resume.information }} -->
       <div
@@ -12,8 +14,10 @@
           class="h-20 w-20 rounded-xl"
           src="https://preview.launchoice.com/personal_cv/assets/img/avatar.jpg"
           alt=""
-        />
-        <h3 class="text-lg font-semibold">saaslabs</h3>
+        >
+        <h3 class="text-lg font-semibold">
+          saaslabs
+        </h3>
         <div class="pt-2 font-semibold flex items-center gap-4 text-gray-500">
           <div class="flex items-center">
             <svg
@@ -28,7 +32,7 @@
                 stroke-linejoin="round"
                 stroke-width="2"
                 d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"
-              ></path>
+              />
             </svg>
             <span class="ml-2">tools</span>
           </div>
@@ -45,7 +49,7 @@
                 stroke-linejoin="round"
                 stroke-width="2"
                 d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
-              ></path>
+              />
             </svg>
             <span class="ml-2">founder</span>
           </div>
@@ -69,8 +73,7 @@
             font-semibold
           "
           href="https://sapients.space"
-          >https://sapients.space</a
-        >
+        >https://sapients.space</a>
       </div>
     </div>
   </div>

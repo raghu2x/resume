@@ -6,8 +6,9 @@
 </template>
 
 <script>
-import ExperienceInfo from "./ExperienceInfo.vue";
-import EducationInfo from "./EducationInfo.vue";
+import ExperienceInfo from './ExperienceInfo.vue';
+import EducationInfo from './EducationInfo.vue';
+
 export default {
   components: { ExperienceInfo, EducationInfo },
 };
